@@ -6,7 +6,7 @@ function createNumber(number) {
                  secondLine:    " |  |",
                  thirdLine:     "     ",
                  fourthLine:    " |  |",
-                 fifthLine:         "  -- "
+                 fifthLine:     "  -- "
                 };
         case "1": 
         return {
@@ -14,7 +14,7 @@ function createNumber(number) {
             secondLine:    "    |",
             thirdLine:     "     ",
             fourthLine:    "    |",
-            fifthLine:         "     "
+            fifthLine:     "     "
            };
         case "2": 
         return {
@@ -22,7 +22,7 @@ function createNumber(number) {
             secondLine:    "    |",
             thirdLine:     "  -- ",
             fourthLine:    " |   ",
-            fifthLine:         "  -- "
+            fifthLine:     "  -- "
            };
         case "3": 
         return {
@@ -30,7 +30,7 @@ function createNumber(number) {
             secondLine:    "    |",
             thirdLine:     "  -- ",
             fourthLine:    "    |",
-            fifthLine:         "  -- "
+            fifthLine:     "  -- "
            };
         case "4": 
         return {
@@ -38,7 +38,7 @@ function createNumber(number) {
             secondLine:    " |  |",
             thirdLine:     "  -- ",
             fourthLine:    "    |",
-            fifthLine:         "     "
+            fifthLine:     "     "
            };
         case "5": 
         return {
@@ -46,7 +46,7 @@ function createNumber(number) {
             secondLine:    " |   ",
             thirdLine:     "  -- ",
             fourthLine:    "    |",
-            fifthLine:         "  -- "
+            fifthLine:     "  -- "
            };
         case "6": 
         return {
@@ -54,7 +54,7 @@ function createNumber(number) {
             secondLine:    " |   ",
             thirdLine:     "  -- ",
             fourthLine:    " |  |",
-            fifthLine:         "  -- "
+            fifthLine:     "  -- "
            };
         case "7": 
         return {
@@ -62,7 +62,7 @@ function createNumber(number) {
             secondLine:    "    |",
             thirdLine:     "     ",
             fourthLine:    "    |",
-            fifthLine:         "     "
+            fifthLine:     "     "
            };
         case "8": 
         return {
@@ -70,7 +70,7 @@ function createNumber(number) {
             secondLine:    " |  |",
             thirdLine:     "  -- ",
             fourthLine:    " |  |",
-            fifthLine:         "  -- "
+            fifthLine:     "  -- "
            };
         case "9": 
         return {
@@ -78,7 +78,7 @@ function createNumber(number) {
             secondLine:    " |  |",
             thirdLine:     "  -- ",
             fourthLine:    "    |",
-            fifthLine:         "     "
+            fifthLine:     "     "
            };
     }
 }
@@ -139,5 +139,5 @@ function writeNumbers(numbers) {
 
 writeNumbers("1,123\n" +
              "2,456\n" + 
-             "3,789\n" +
+             "2,789\n" +
              "0,0");
